@@ -57,7 +57,7 @@ struct ContentView: View {
         VStack {
             Text(viewModel.info)
                 .padding()
-            WebView(url: URL(string: "https://www.posetracker.com/pose_tracker/tracking?token=494e020b-7cc8-4aed-815b-4674d10d4f30&exercise=squat&difficulty=easy&width=350&height=350&progression=true")!, viewModel: viewModel)
+            WebView(url: URL(string: "https://app.posetracker.com/pose_tracker/tracking?token=494e020b-7cc8-4aed-815b-4674d10d4f30&exercise=squat&difficulty=easy&width=350&height=350&progression=true")!, viewModel: viewModel)
                 .edgesIgnoringSafeArea(.all)
         }
     }
